@@ -1,0 +1,198 @@
+/* Animations */
+@keyframes fadeSlideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scaleUp {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes floatUp {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  /* Animation Classes */
+  .animated-hello {
+    animation: fadeSlideDown 0.8s ease-out forwards;
+  }
+  
+  .animated-name {
+    animation: scaleUp 0.6s ease-out forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+  }
+  
+  .animated-buttons {
+    opacity: 0;
+    animation: fadeSlideDown 0.6s ease-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .animated-image {
+    animation: floatUp 3s ease-in-out infinite;
+  }
+  
+  .testimonial,
+  .experience-box {
+    opacity: 0;
+    animation: fadeSlideDown 0.8s ease-out forwards;
+  }
+  
+  .testimonial {
+    animation-delay: 0.4s;
+  }
+  
+  .experience-box {
+    animation-delay: 0.4s;
+  }
+  
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .intro-content {
+    flex: 2;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .intro-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: #1E1B4B;
+  }
+  /* Speech bubble style for Hello */
+  .speech-bubble {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .greeting-text {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #EC4899;
+  }
+  
+  /* Name and role styling */
+  .highlight-name {
+    color: #EC4899;
+    font-weight: bold;
+  }
+  
+  .typing-role {
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1E1B4B;
+  }
+  
+  .cursor {
+    display: inline-block;
+    animation: blink 0.7s infinite;
+    color: #EC4899;
+    margin-left: 2px;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  /* Buttons */
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #EC4899;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #8B5CF6;
+  }
+  
+  .btn-secondary {
+    background: transparent;
+    border: 2px solid #EC4899;
+    color: #EC4899;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #FBCFE8;
+    color: #1E1B4B;
+  }
+  
+  /* Image */
+  .hero-image img {
+    width: 240px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 2rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  .testimonial {
+    flex: 1;
+    max-width: 280px;
+    text-align: left;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #475569;
+  }
+  
+  .experience-box {
+    flex: 1;
+    max-width: 280px;
+    text-align: right;
+    color: #1E1B4B;
+  }
+  
+  .stars {
+    color: #8B5CF6;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  

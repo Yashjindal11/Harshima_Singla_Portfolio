@@ -1,0 +1,170 @@
+:root {
+    --bg: #fff7ed;
+    --pink: #ec4899;
+    --dark: #2b0a29;
+    --white: #fff;
+    --muted: #555;
+    --radius: 8px;
+    --speed: 20s;
+}
+
+.testimonials-section {
+    background: var(--bg);
+    padding: 3rem 1rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark);
+    margin-bottom: 2rem;
+}
+
+
+.ticker {
+    overflow: hidden;
+    position: relative;
+}
+
+.ticker-track {
+    display: flex;
+    gap: 2rem;
+    animation: scroll var(--speed) linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.ticker-item {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.ticker-item:hover {
+    transform: translateY(-4px);
+}
+
+.profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.info {
+    flex: 1;
+}
+
+.text {
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+    color: var(--dark);
+}
+
+.who {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+
+.ticker:hover .ticker-track {
+    animation-play-state: paused;
+}
+
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 2rem;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    text-align: left;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.modal-pic {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.modal-name {
+    margin: 0.5rem 0 0.25rem;
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+.modal-title {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 1rem;
+}
+
+.modal-text p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+.linkedin-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--pink);
+    color: var(--white);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .ticker-item {
+        min-width: 240px;
+        padding: 0.75rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+}
