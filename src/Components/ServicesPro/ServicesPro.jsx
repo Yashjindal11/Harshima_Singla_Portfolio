@@ -125,6 +125,7 @@ export default function Services() {
 
   return (
     <section className="services-section">
+      <div className="services-container">
       <h2 className="services-heading">My Services</h2>
       <p className="services-subtext">
         Building strategy, automation, and analytics into measurable execution.
@@ -158,6 +159,7 @@ export default function Services() {
             <p>{svc.desc}</p>
           </motion.div>
         ))}
+      </div>
       </div>
     </section>
   );

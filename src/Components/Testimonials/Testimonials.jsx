@@ -42,6 +42,7 @@ export default function Testimonials() {
 
   return (
     <section className="testimonials-section">
+      <div className="testimonials-container">
       <h2 className="section-title">What People Say</h2>
 
       <div
@@ -108,6 +109,7 @@ export default function Testimonials() {
           </div>
         </div>
       )}
+      </div>
     </section>
   );
 }

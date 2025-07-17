@@ -1,0 +1,50 @@
+[
+  {
+    "title": "How Python changed United Airline’s Operations Department | Part 1",
+    "description": "Discover how grunt work got reimagined through automation workflows and Python-based tooling.",
+    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-21ebda65bccb",
+    "date": "July 14, 2025",
+    "tags": ["Automation", "Python", "Airlines", "Operations", "ProblemSolving"],
+    "featured": true,
+    "author": {
+      "name": "Harshima Singla",
+      "avatar": "../../assets/fin_log.png"
+    }
+  },
+  {
+    "title": "Cloud Analytics in Aviation",
+    "description": "Explore how airlines use data dashboards to optimize scheduling and ground operations.",
+    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-21ebda65bccb",
+    "date": "July 12, 2025",
+    "tags": ["Cloud", "Analytics", "Efficiency"],
+    "featured": false,
+    "author": {
+      "name": "Harshima Singla",
+      "avatar": "../../assets/fin_log.png"
+    }
+  },
+  {
+    "title": "How Python changed United Airline’s Operations Department | Part 2",
+    "description": "Discover how grunt work got reimagined through automation workflows and Python-based tooling.",
+    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-21ebda65bccb",
+    "date": "July 14, 2025",
+    "tags": ["Automation", "Python", "Airlines", "Operations", "ProblemSolving"],
+    "featured": true,
+    "author": {
+      "name": "Harshima Singla",
+      "avatar": "../../assets/fin_log.png"
+    }
+  },
+  {
+    "title": "Machine Learning in Route Planning",
+    "description": "See how ML models are helping define optimal flight paths and reduce delays in dynamic conditions.",
+    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-21ebda65bccb",
+    "date": "July 9, 2025",
+    "tags": ["Machine Learning", "Routing", "Airlines"],
+    "featured": false,
+    "author": {
+      "name": "Harshima Singla",
+      "avatar": "../../assets/fin_log.png"
+    }
+  }
+]

@@ -77,7 +77,7 @@ const About = () => {
         <section className="hero-section centered-hero">
             <div className="testimonial">
                 <p>
-                    “The kind of teammate who lifts up both projects and people.”
+                    “The kind of teammate who lifts up both projects and people.” - Yash
                 </p>
             </div>
 

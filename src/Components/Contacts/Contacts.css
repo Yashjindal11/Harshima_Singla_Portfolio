@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --grad-start: #fbe6ef;
     --grad-end: #fff7ed;
     --pink: #ec4899;
@@ -7,37 +7,57 @@
     --radius: 8px;
     --transition: 0.3s ease;
     --shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.contact-pro {
+:root {
+    --grad-start: #e9d4e7;
+    --grad-end: #f4ecf9;
+    --plum: #8e4585;
+    --plum-light: #d6a3ce;
+    --plum-dark: #5a2c57;
+    --deep-purple: #42307d;
+    --deep-purple-light: #6b4fb1;
+    --text-muted: #6b7280;
+  
+    --primary: var(--plum);
+    --secondary: var(--deep-purple);
+    --muted: #666;
+  
+    --radius: 8px;
+    --transition: 0.3s ease;
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .contact-pro {
     position: relative;
     overflow: hidden;
     padding: 4rem 1rem;
     background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
-}
-
-.bg-shapes .shape {
+  }
+  
+  .bg-shapes .shape {
     position: absolute;
-    background: rgba(236, 72, 153, 0.15);
+    background: rgba(142, 69, 133, 0.15); /* plum at 15% */
     border-radius: 50%;
     mix-blend-mode: multiply;
-}
-
-.bg-shapes .circle {
+  }
+  
+  .bg-shapes .circle {
     width: 300px;
     height: 300px;
     top: -100px;
     right: -100px;
-}
-
-.bg-shapes .blob {
+  }
+  
+  .bg-shapes .blob {
     width: 400px;
     height: 400px;
     bottom: -150px;
     left: -150px;
-}
-
-.contact-pro .inner {
+  }
+  
+  .contact-pro .inner {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
@@ -45,26 +65,26 @@
     gap: 3rem;
     position: relative;
     z-index: 1;
-}
-
-.contact-pro .info h2 {
+  }
+  
+  .contact-pro .info h2 {
     margin-bottom: 0.5rem;
     font-size: 2.25rem;
-    color: var(--dark);
-}
-
-.contact-pro .info p {
+    color: var(--deep-purple);
+  }
+  
+  .contact-pro .info p {
     margin-bottom: 2rem;
     color: var(--muted);
-}
-
-.contact-pro .cards {
+  }
+  
+  .contact-pro .cards {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-.contact-pro .card {
+  }
+  
+  .contact-pro .card {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -74,34 +94,33 @@
     box-shadow: var(--shadow);
     transition: transform var(--transition), box-shadow var(--transition);
     cursor: pointer;
-}
-
-.contact-pro .card .icon {
+  }
+  
+  .contact-pro .card .icon {
     font-size: 1.5rem;
-    color: var(--pink);
-}
-
-.contact-pro .card a {
-    color: var(--dark);
+    color: var(--plum);
+  }
+  
+  .contact-pro .card a {
+    color: var(--deep-purple);
     text-decoration: none;
     font-weight: 600;
-}
-
-
-.contact-pro .form form {
+  }
+  
+  .contact-pro .form form {
     background: var(--white);
     padding: 2rem;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-}
-
-.contact-pro .field {
+  }
+  
+  .contact-pro .field {
     position: relative;
     margin-bottom: 1.5rem;
-}
-
-.contact-pro .field input,
-.contact-pro .field textarea {
+  }
+  
+  .contact-pro .field input,
+  .contact-pro .field textarea {
     width: 100%;
     padding: 1rem 0.75rem 0.25rem;
     border: none;
@@ -109,14 +128,14 @@
     font-size: 1rem;
     outline: none;
     transition: border-color var(--transition);
-}
-
-.contact-pro .field input:focus,
-.contact-pro .field textarea:focus {
-    border-bottom-color: var(--pink);
-}
-
-.contact-pro .field label {
+  }
+  
+  .contact-pro .field input:focus,
+  .contact-pro .field textarea:focus {
+    border-bottom-color: var(--plum);
+  }
+  
+  .contact-pro .field label {
     position: absolute;
     top: 1rem;
     left: 0.75rem;
@@ -124,29 +143,29 @@
     color: #888;
     pointer-events: none;
     transition: transform var(--transition), font-size var(--transition);
-}
-
-.contact-pro .field.filled label,
-.contact-pro .field input:focus+label,
-.contact-pro .field textarea:focus+label {
+  }
+  
+  .contact-pro .field.filled label,
+  .contact-pro .field input:focus + label,
+  .contact-pro .field textarea:focus + label {
     transform: translateY(-1.5rem);
     font-size: 0.8rem;
-    color: var(--pink);
-}
-
-.contact-pro .error {
+    color: var(--plum);
+  }
+  
+  .contact-pro .error {
     display: block;
     margin-top: 0.25rem;
     font-size: 0.8rem;
     color: #d62c4a;
-}
-
-.submit-wrap {
+  }
+  
+  .submit-wrap {
     text-align: center;
-}
-
-.btn {
-    background: var(--pink);
+  }
+  
+  .btn {
+    background: var(--plum);
     color: var(--white);
     border: none;
     padding: 0.75rem 2rem;
@@ -155,36 +174,37 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background var(--transition), transform var(--transition);
-}
-
-.btn:hover {
-    background: #d81b60;
-}
-
-.success {
+  }
+  
+  .btn:hover {
+    background: var(--plum-dark);
+  }
+  
+  .success {
     font-size: 1.25rem;
-    color: var(--pink);
+    color: var(--plum);
     font-weight: 600;
-}
-
-@media (max-width: 760px) {
+  }
+  
+  @media (max-width: 760px) {
     .contact-pro .inner {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
-
+  
     .contact-pro .info {
-        margin-bottom: 2rem;
+      margin-bottom: 2rem;
     }
-}
-
-.success {
+  }
+  
+  .success {
     color: green;
     font-weight: bold;
     margin-top: 1rem;
-}
-
-.error-message {
+  }
+  
+  .error-message {
     color: crimson;
     font-weight: bold;
     margin-top: 1rem;
-}
+  }
+  

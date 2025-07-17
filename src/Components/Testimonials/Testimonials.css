@@ -7,7 +7,11 @@
     --radius: 8px;
     --speed: 20s;
 }
-
+.testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
 .testimonials-section {
     background: var(--bg);
     padding: 3rem 1rem;

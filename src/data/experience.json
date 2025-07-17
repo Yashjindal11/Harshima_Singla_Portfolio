@@ -1,0 +1,87 @@
+{
+    "experiences": [
+      {
+        "company": "Senior Analyst – Ops Strategy and Analytics, United Airlines",
+        "logo": "unitedLogo",
+        "period": "Aug 2023 – Present",
+        "role": "Senior Analyst",
+        "description": "Stepping into a leadership role to drive strategic analytics initiatives across Flight Ops and Customer Experience.",
+        "achievements": [
+          "Spearheading cross-functional data projects to optimize fleet utilization",
+          "Defining KPIs and roadmap for next-gen operational dashboards"
+        ],
+        "tools": [
+          "Power BI", "Python", "SQL", "Azure Data Factory",
+          "Databricks", "Git", "Airflow", "Looker"
+        ],
+        "quote": "“Details coming soon!”"
+      },
+      {
+        "company": "Analyst – Hub Analytics & Schedule Planning, United Airlines",
+        "logo": "unitedLogo",
+        "period": "Sep 2022 – Jul 2023",
+        "role": "Data Analyst",
+        "description": "Analyzed gate-checked baggage workflows and root-causes for widebody delays; delivered performance uplift models.",
+        "achievements": [
+          "Built a Power BI report consolidating 50+ manual emails—saved 2 hrs/day for 10+ teams",
+          "Designed IRROPS KPI dashboard, replacing slide decks and trimming 10 hrs/week"
+        ],
+        "tools": [
+          "Power BI", "Excel (advanced)", "SQL", "Python",
+          "Azure Synapse", "Tableau", "Git"
+        ],
+        "quote": "Her insights shaved hours off our daily grind.”"
+      },
+      {
+        "company": "Analyst – NOC Performance & Analytics, United Airlines",
+        "logo": "unitedLogo",
+        "period": "Apr 2021 – Aug 2022",
+        "role": "Operations Analyst",
+        "description": "Revamped executive-level ops reports (incl. CEO briefings); engineered ETL for ATC feeds to cut processing time in half.",
+        "achievements": [
+          "SQL-mined flight-delay trends and drove SOP updates that reduced avg. delay",
+          "Led hot-wash analyses on IRROPS events to refine station response protocols"
+        ],
+        "tools": [
+          "SQL (T-SQL)", "Python (pandas)", "Tableau", "Spotfire",
+          "PowerShell", "Azure Data Factory"
+        ],
+        "quote": "“She turned raw data into boardroom-ready insights.”"
+      },
+      {
+        "company": "Associate Data Analyst – Airport Ops Optimization, United Airlines",
+        "logo": "unitedLogo",
+        "period": "Sep 2020 – Mar 2021",
+        "role": "Associate Data Analyst",
+        "description": "Streamlined weekly Ops reporting, developed goal-setting tools, and automated routing dashboards—driving millions in savings.",
+        "achievements": [
+          "Built an Excel-based MBR goal tool boosting planning accuracy by 25%",
+          "Automated Node.js reports for routing options—saved ~$20 M annually",
+          "Revamped live Ops dashboard for 8+ stations, enabling real-time decision-making"
+        ],
+        "tools": [
+          "Excel (VBA)", "Node.js", "Spotfire", "Python",
+          "Power BI", "Git"
+        ],
+        "quote": "“Her automation scripts paid for themselves tenfold.”"
+      },
+      {
+        "company": "Intern – Customer Insights & Analytics, United Airlines",
+        "logo": "unitedLogo",
+        "period": "Mar 2020 – Sep 2020",
+        "role": "Customer Insights Intern",
+        "description": "Dove into passenger feedback data—aggregating surveys, building ETL pipelines, and surfacing CX trends to senior leadership.",
+        "achievements": [
+          "Authored Python ETL scripts to unify NPS & survey data across five systems",
+          "Designed and deployed Tableau dashboards tracking passenger sentiment",
+          "Partnered with CX team to identify three critical service improvements"
+        ],
+        "tools": [
+          "Python", "SQL", "Tableau", "Excel",
+          "R", "Power BI", "Git"
+        ],
+        "quote": "“Her data work directly informed our customer-centric roadmap.”"
+      }
+    ]
+  }
+  

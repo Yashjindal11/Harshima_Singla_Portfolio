@@ -26,7 +26,6 @@ export default function NavigationBar() {
           ))}
         </ul>
 
-        {/* Center logo */}
         <div
           className="nav-logo"
           onMouseEnter={() => setLogoHover(true)}

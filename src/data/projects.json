@@ -1,0 +1,74 @@
+{"Projects" : [
+    {
+      "title": "Airline Strategy",
+      "icon": "<FaPlaneDeparture />",
+      "desc": "Optimize fleet, crew, and network operations for aviation excellence.",
+      "category": "Operations"
+    },
+    {
+      "title": "Advanced Analytics",
+      "icon": "<FaChartLine />",
+      "desc": "Make data-driven decisions with modern analytical tooling.",
+      "category": "Analytics"
+    },
+    {
+      "title": "Enterprise Power Apps",
+      "icon": "<FaMicrosoft />",
+      "desc": "Build scalable internal tools for workflows and automation.",
+      "category": "Automation"
+    },
+    {
+      "title": "Python Automation",
+      "icon": "<FaPython />",
+      "desc": "Replace manual tasks with intelligent scripting.",
+      "category": "Automation"
+    },
+    {
+      "title": "Platform Integration",
+      "icon": "<FaProjectDiagram />",
+      "desc": "Coordinate Power BI, Automate, and Dataverse into unified systems.",
+      "category": "Automation"
+    },
+    {
+      "title": "Strategic Consulting",
+      "icon": "<FaUserTie />",
+      "desc": "Translate vision into roadmaps through insights and execution.",
+      "category": "Strategy"
+    },
+    {
+      "title": "Team Leadership",
+      "icon": "<FaUsers />",
+      "desc": "Lead multidisciplinary groups toward clarity and performance.",
+      "category": "Operations"
+    },
+    {
+      "title": "Efficiency Design",
+      "icon": "<FaSlidersH />",
+      "desc": "Diagnose and improve key workflows across departments.",
+      "category": "Operations"
+    },
+    {
+      "title": "Narrative Design",
+      "icon": "<FaPenFancy />",
+      "desc": "Elevate storytelling in dashboards and decision frameworks.",
+      "category": "Strategy"
+    },
+    {
+      "title": "Executive Dashboards",
+      "icon": "<FaChartPie />",
+      "desc": "Visualize KPIs with clarity, precision, and stakeholder context.",
+      "category": "Analytics"
+    },
+    {
+      "title": "Decision Intelligence",
+      "icon": "<FaBalanceScale />",
+      "desc": "Empower executive decisions with multi-layered data logic.",
+      "category": "Strategy"
+    },
+    {
+      "title": "Workflow Optimization",
+      "icon": "<FaSyncAlt />",
+      "desc": "Automate core processes to improve scale, cost, and reliability.",
+      "category": "Automation"
+    }
+  ]}
