@@ -41,7 +41,7 @@ export default function Testimonials() {
     fullText.split(/\n\s*\n/).map((p, idx) => <p key={idx}>{p}</p>);
 
   return (
-    <section className="testimonials-section">
+    <section id = "Blogs" className="testimonials-section">
       <div className="testimonials-container">
       <h2 className="section-title">What People Say</h2>
 

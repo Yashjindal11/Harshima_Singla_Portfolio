@@ -75,7 +75,7 @@ export default function ContactPro() {
   };
 
   return (
-    <section className="contact-pro">
+    <section id = "Contact" className="contact-pro">
       <div className="bg-shapes">
         <div className="shape circle" />
         <div className="shape blob" />

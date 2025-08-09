@@ -70,7 +70,7 @@ export default function ServicesCarousel() {
   }, []);
 
   return (
-    <section className="services-section">
+    <section id = "Services" className="services-section">
       <h2 className="section-title">My Services</h2>
       <p className="section-subtext">
         Bridging strategy, automation & analytics—delivering solutions that drive measurable value.

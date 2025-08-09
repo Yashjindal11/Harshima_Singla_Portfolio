@@ -132,7 +132,7 @@ export default function BlogSection() {
 
   return (
 
-    <section className="blog-section">
+    <section id = "Blogs" className="blog-section">
           <div className="blog-container">
       <div className="blog-hero">
         <img src={finLog} alt="Flight Tech Banner" className="hero-image" />
