@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './About.css';
-import pict from '../../assets/leader.svg'
+import pict from '../../assets/yash.png'
 import resumePdf from '../../assets/Harshima_Singla_Resume.pdf'
 
 const roles = [
