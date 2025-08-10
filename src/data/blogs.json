@@ -2,49 +2,61 @@
   {
     "title": "How Python changed United Airline’s Operations Department | Part 1",
     "description": "Discover how grunt work got reimagined through automation workflows and Python-based tooling.",
-    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-21ebda65bccb",
-    "date": "July 14, 2025",
+    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-1ecb2319daa5",
+    "date": "2025-07-18",
     "tags": ["Automation", "Python", "Airlines", "Operations", "ProblemSolving"],
-    "featured": true,
-    "author": {
-      "name": "Harshima Singla",
-      "avatar": "../../assets/fin_log.png"
-    }
-  },
-  {
-    "title": "Cloud Analytics in Aviation",
-    "description": "Explore how airlines use data dashboards to optimize scheduling and ground operations.",
-    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-21ebda65bccb",
-    "date": "July 12, 2025",
-    "tags": ["Cloud", "Analytics", "Efficiency"],
     "featured": false,
     "author": {
       "name": "Harshima Singla",
-      "avatar": "../../assets/fin_log.png"
+      "avatar": "../../assets/logo_fin.png"
     }
   },
   {
-    "title": "How Python changed United Airline’s Operations Department | Part 2",
-    "description": "Discover how grunt work got reimagined through automation workflows and Python-based tooling.",
-    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-21ebda65bccb",
-    "date": "July 14, 2025",
+    "title": "How Python Changed United Airlines' Operations Department | Part 2",
+    "description": "Hands on tutorial on how grunt work got reimagined through automation workflows and Python-based tooling.",
+    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-2-134ab60dca04",
+    "date": "2025-07-23",
     "tags": ["Automation", "Python", "Airlines", "Operations", "ProblemSolving"],
-    "featured": true,
-    "author": {
-      "name": "Harshima Singla",
-      "avatar": "../../assets/fin_log.png"
-    }
-  },
-  {
-    "title": "Machine Learning in Route Planning",
-    "description": "See how ML models are helping define optimal flight paths and reduce delays in dynamic conditions.",
-    "link": "https://medium.com/@harshima/how-python-changed-united-airlines-operations-department-part-1-21ebda65bccb",
-    "date": "July 9, 2025",
-    "tags": ["Machine Learning", "Routing", "Airlines"],
     "featured": false,
     "author": {
       "name": "Harshima Singla",
-      "avatar": "../../assets/fin_log.png"
+      "avatar": "../../assets/logo_fin.png"
+    }
+  },
+  {
+    "title": "🛋️ When Your Office Becomes Your Living Room: Figuring Out WFH Without Losing Your Mind",
+    "description": "",
+    "link": "https://medium.com/@harshima/%EF%B8%8F-when-your-office-becomes-your-living-room-figuring-out-wfh-without-losing-your-mind-8c03a3f13418",
+    "date": "2025-07-26",
+    "tags": ["Work From Home", "Remote Work", "Home Office", "Work Life Balance", "Productivity"],
+    "featured": false,
+    "author": {
+      "name": "Harshima Singla",
+      "avatar": "../../assets/logo_fin.png"
+    }
+  },
+  {
+    "title": "When You’re Not the Manager — But Expected to Be One Anyway",
+    "description": "The exhausting middle zone of modern work no one prepares you for",
+    "link": "https://medium.com/@harshima/when-youre-not-the-manager-but-expected-to-be-one-anyway-ea245dc27d5f",
+    "date": "2025-07-30",
+    "tags": ["Leadership", "Management", "Corporate Culture", "People", "Stress Management"],
+    "featured": true,
+    "author": {
+      "name": "Harshima Singla",
+      "avatar": "../../assets/logo_fin.png"
+    }
+  },
+  {
+    "title": "What Makes an Analysis Actionable? A Framework Beyond Just Charts",
+    "description": "In a world full of dashboards and decks, the ones that actually move people are the ones that move decisions.",
+    "link": "https://medium.com/@harshima/what-makes-an-analysis-actionable-a-framework-beyond-just-charts-d3f63697c38c",
+    "date": "2025-08-03",
+    "tags": ["Data Analysis", "Learning", "Personal Development", "Management"],
+    "featured": true,
+    "author": {
+      "name": "Harshima Singla",
+      "avatar": "../../assets/logo_fin.png"
     }
   }
 ]

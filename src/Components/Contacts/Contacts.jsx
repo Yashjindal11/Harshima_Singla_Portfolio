@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 import "./Contacts.css";
+import { logemailClick, logMessageSubmission  } from "../../firebase";
 
 export default function ContactPro() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -89,7 +90,7 @@ export default function ContactPro() {
           <div className="cards">
             <motion.div className="card" whileHover={{ scale: 1.03 }}>
               <FaEnvelope className="icon" />
-              <a href="mailto:harshimasingla@gmail.com">harshimasingla@gmail.com</a>
+              <a href="mailto:harshima.singla26@gmail.com" onClick = {() => {logemailClick("harshima.singla26@gmail.com"); sendClickEmail();}}>harshima.singla26@gmail.com</a>
             </motion.div>
 
             <motion.div className="card" whileHover={{ scale: 1.03 }}>

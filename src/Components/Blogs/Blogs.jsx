@@ -154,7 +154,6 @@ export default function BlogSection() {
           <BlogCard key={idx} blog={blog} />
         ))}
       </div>
-      {/* <AuthorWall authors={authors} /> */}
 
       <Newsletter />
       <footer className="blog-footer-global">
