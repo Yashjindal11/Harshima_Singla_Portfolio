@@ -1,20 +1,12 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, addDoc, serverTimestamp } from "firebase/firestore";
+import { getFirestore, collection, addDoc, serverTimestamp, getDocs } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyDWlKeLZNA0V1AyjdsuoZCJbQzcWKyLufU",
-  authDomain: "harshima-portfolio.firebaseapp.com",
-  projectId: "harshima-portfolio",
-  storageBucket: "harshima-portfolio.firebasestorage.app",
-  messagingSenderId: "221886497973",
-  appId: "1:221886497973:web:626ebce9d0a327cd15aafc",
-  measurementId: "G-G8T5H0KJCB"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -33,6 +25,18 @@ export async function logemailClick(email) {
     }
 }
 
+export async function saveNewsletterEmail(newemail) {
+  try {
+    await addDoc(collection(db, "newsletter"), {
+      email: newemail,
+      subscribedAt: serverTimestamp()
+    });
+    console.log("✅ Email saved to newsletter collection");
+  } catch (error) {
+    console.error("❌ Error saving email:", error);
+  }
+}
+
 export async function logMessageSubmission(formData = {}) {
   try {
     await addDoc(collection(db, "contactMessages"), {
@@ -44,5 +48,35 @@ export async function logMessageSubmission(formData = {}) {
   } catch (err) {
     console.error("❌ Error saving message:", err);
     return false;
+  }
+}
+
+// export async function fetchBlogs() {
+//   try {
+//     const blogsCol = collection(db, "blogs");
+//     const blogsSnapshot = await getDocs(blogsCol);
+//     const blogList = blogsSnapshot.docs.map(doc => ({
+//       id: doc.id,
+//       ...doc.data()
+//     }));
+//     return blogList;
+//   } catch (err) {
+//     console.error("❌ Error fetching bilog:", err);
+//     return [];
+//   }
+// }
+
+export async function fetchBlogs() {
+  try {
+    const blogsCol = collection(db, "blogs");
+    const blogsSnapshot = await getDocs(blogsCol);
+    const blogList = blogsSnapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    }));
+    return blogList;
+  } catch (err) {
+    console.error("❌ Error fetching blog:", err);
+    return [];
   }
 }
